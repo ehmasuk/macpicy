@@ -1,0 +1,251 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    scroll-behavior: smooth;
+}
+:hover{
+    text-decoration: none !important;
+}
+.container{
+    max-width: 85%;
+}
+
+
+/* *************************************top banner body******************************/
+.top_banner_body{
+    background-image: url(img/home/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+/* *************************************top-breadcrumb-section*********************************** */
+.top-breadcrumb-section{
+    padding: 100px 0;
+    color: #FFFFFF;
+}
+.top-breadcrumb-section a{
+    color: #FFFFFF;
+}
+/* *************************************navbar section*********************************** */
+.nav_row{
+    border-top: 1px solid #747277;
+    border-bottom: 1px solid #747277;
+}
+
+#my_button{
+    padding: 8px 0;
+}
+/* ****************************************top-headings-section***************************** */
+.top-headings-section{
+    color: #FFFFFF;
+    margin-top: 60px;
+}
+.top-headings-section h1{
+    font-size: 5vw;
+    margin: 20px 0;
+}
+.top-headings-section p:first-child{
+    letter-spacing: 2px;
+}
+.top-headings-section p{
+    font-weight: 300;
+}
+.primary-butn{
+    font-weight: 500;
+    background: #f42f2c;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    padding: 10px 30px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.primary-butn:hover{
+    background: #222222;
+    color: #fff;
+}
+/* *****************************about-section***************************** */
+.about-section{
+    padding: 150px 0 !important;
+}
+.about-section h1{
+    font-weight: 600;
+}
+.about-section p{
+    font-weight: 300;
+    margin-top: 20px;
+}
+/* ******************************menu-section*************************** */
+.mixitup-control-active{
+    background-color: #F42F2C;
+}
+.menu-section{
+    padding: 150px 0 !important;
+    padding: 50px 0;
+    background-color: #F9F9FF;
+}
+.middle-nav *{
+    font-size: 12px;
+    font-weight: 500;
+}
+.menu-section p{
+    font-weight: 300;
+    margin-top: 20px;
+}
+.middle-nav{
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px 0px rgba(153,153,153,0.2);
+    margin: 70px 0;
+    padding: 0 !important;
+}
+.middle-nav a{
+    color: black;
+}
+.middle-nav .col-2{
+    margin: 0 !important;
+    padding: 0 !important;
+    padding: 40px 0 !important;
+    border-right: 1px solid rgba(233, 233, 233, 0.5);
+    cursor: pointer;
+}
+.middle-nav .col-2:first-child{
+    border-radius: 10px 0 0 10px;
+}
+.middle-nav .col-2:last-child{
+    border: none !important;
+    border-radius: 0 10px 10px 0;
+}
+.menu-cell{
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.menu-cell h4{
+    font-weight: 600;
+}
+.menu-cell span,i{
+    color: #F42F2C;
+    font-weight: 600;
+    font-size: 19px;
+}
+/* *****************************CONTACT SECTION************************************* */
+.contact-section{
+    padding: 100px 0 !important;
+    background: linear-gradient(rgba(17,22,24,0.75),rgba(17,22,24,0.75)),url(img/home/reservation-bg.jpg);
+    color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-section h1{
+    margin-bottom: 30px;
+}
+.contact-section form{
+    padding: 100px 50px;
+    background-color: #FFFFFF;
+    margin-top: 50px;
+}
+::placeholder{
+    font-size: 13px;
+}
+.form-control-lg{
+    font-size: 13px;
+    height: 40px;
+}
+input[value="Make Reservation"]{
+    background-color: #F42F2C;
+    border: none;
+    color: #FFFFFF;
+    height: 45px;
+    width: 180px;
+    margin-top: 10px;
+}
+/* *******************************GALLARY SECTION*********************************** */
+.gallery-section{
+    padding: 150px 0 !important;
+}
+/* *********************************TESTIMONIAL section********************************* */
+
+.testimonial-section{
+    padding: 100px 0 !important;
+    background-image: url(img/home/review-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* ************************blog section****************************************** */
+.blog-section{
+    padding: 100px 0 !important;
+}
+.blog-section img{
+    width: 100%;
+}
+.blog-section .date{
+    background-color: #000;
+    color: #fff;
+    font-weight: 100;
+    padding: 2px 15px;
+}
+/* ****************************footer section************************************** */
+.footer-section{
+    padding-top: 70px !important;
+    padding-bottom: 100px !important;
+    background-color: #F42F2C;
+    color: #fff;
+}
+.footer-section .sedule-row{
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(238,238,238,0.3);;
+}
+.footer-section .input-with-icon{
+    position: relative !important;
+}
+.footer-section .inputs-icon{
+    position: absolute !important;
+    right: 3px;
+    top: 3px;
+    background-color: #F42F2C;
+    padding: 5px 8px;
+    border: none;
+}
+.footer-section .bottom-col-of-footer{
+    margin-top: 25px;
+    padding: 0;
+}
+
+/* ****************************footer bottom************************************** */
+.container-fluid{
+    background-color: #222222 !important;
+    padding: 20px 0;
+    color: #FFFFFF;
+    
+}
+.container-fluid .row{
+    margin: 0 !important;
+}
+.container-fluid .footer-bottom-socials a{
+    color: #FFFFFF !important;
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-fluid .footer-bottom-socials a i{
+    color: #FFFFFF !important;
+}
+/* ************************************MEDIA QUARY************************************************ */
+@media only screen and (max-width:768px) {
+    .middle-nav .col-2{
+        padding: 25px 0 !important;
+    }
+}
+@media only screen and (max-width:560px) {
+    .middle-nav .col-2{
+        padding: 10px 0 !important;
+    }
+}
